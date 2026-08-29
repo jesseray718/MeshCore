@@ -10,26 +10,28 @@
       
       
       
-        <link rel="canonical" href="https://meshcore-dev.github.io/meshcore/">
+        <link rel="canonical" href="https://meshcore-dev.github.io/meshcore/LOWEST_NODE_PHYSICAL_INTEGRATION/">
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="LOWEST_NODE_PHYSICAL_INTEGRATION/">
+      
+        <link rel="next" href="../cli_commands/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>MeshCore Docs</title>
+        <title>Lowest-Node Physical Integration Notes - MeshCore Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -48,9 +50,9 @@
       
     
     
-      <link rel="stylesheet" href="_stylesheets/extra.css">
+      <link rel="stylesheet" href="../_stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#lowest-node-physical-integration-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -84,9 +86,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MeshCore Docs" class="md-header__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
+    <a href=".." title="MeshCore Docs" class="md-header__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
       
-  <img src="_assets/meshcore.svg" alt="logo">
+  <img src="../_assets/meshcore.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -103,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Lowest-Node Physical Integration Notes
             
           </span>
         </div>
@@ -195,9 +197,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MeshCore Docs" class="md-nav__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
+    <a href=".." title="MeshCore Docs" class="md-nav__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
       
-  <img src="_assets/meshcore.svg" alt="logo">
+  <img src="../_assets/meshcore.svg" alt="logo">
 
     </a>
     MeshCore Docs
@@ -221,19 +223,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -249,7 +242,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -258,10 +250,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="LOWEST_NODE_PHYSICAL_INTEGRATION/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lowest-Node Physical Integration Notes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -277,6 +296,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core principle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-physical-integration-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple physical integration ideas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-co-locate-with-a-passive-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why co-locate with a passive unit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials-that-cost-almost-nothing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materials that cost almost nothing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definition of success
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -288,7 +382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cli_commands/" class="md-nav__link">
+      <a href="../cli_commands/" class="md-nav__link">
         
   
   
@@ -315,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="companion_protocol/" class="md-nav__link">
+      <a href="../companion_protocol/" class="md-nav__link">
         
   
   
@@ -342,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="docs/" class="md-nav__link">
+      <a href="../docs/" class="md-nav__link">
         
   
   
@@ -369,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         
   
   
@@ -396,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="kiss_modem_protocol/" class="md-nav__link">
+      <a href="../kiss_modem_protocol/" class="md-nav__link">
         
   
   
@@ -423,7 +517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="nrf52_power_management/" class="md-nav__link">
+      <a href="../nrf52_power_management/" class="md-nav__link">
         
   
   
@@ -450,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="number_allocations/" class="md-nav__link">
+      <a href="../number_allocations/" class="md-nav__link">
         
   
   
@@ -477,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="packet_format/" class="md-nav__link">
+      <a href="../packet_format/" class="md-nav__link">
         
   
   
@@ -504,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="payloads/" class="md-nav__link">
+      <a href="../payloads/" class="md-nav__link">
         
   
   
@@ -531,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="qr_codes/" class="md-nav__link">
+      <a href="../qr_codes/" class="md-nav__link">
         
   
   
@@ -558,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stats_binary_frames/" class="md-nav__link">
+      <a href="../stats_binary_frames/" class="md-nav__link">
         
   
   
@@ -585,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="terminal_chat_cli/" class="md-nav__link">
+      <a href="../terminal_chat_cli/" class="md-nav__link">
         
   
   
@@ -625,6 +719,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core principle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-physical-integration-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple physical integration ideas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-co-locate-with-a-passive-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why co-locate with a passive unit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials-that-cost-almost-nothing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materials that cost almost nothing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definition of success
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -640,7 +797,7 @@
 
 
   
-    <a href="https://github.com/meshcore-dev/meshcore/edit/main/docs/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/meshcore-dev/meshcore/edit/main/docs/LOWEST_NODE_PHYSICAL_INTEGRATION.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -648,20 +805,35 @@
   
 
 
-<h1 id="introduction">Introduction</h1>
-<p>Welcome to the MeshCore documentation.</p>
-<p>Below are a few quick start guides.</p>
+<h1 id="lowest-node-physical-integration-notes">Lowest-Node Physical Integration Notes</h1>
+<p>This document is for people who have almost no money or tools and still want a working MeshCore node.</p>
+<p>The goal is the lowest possible barrier while keeping the radio useful.</p>
+<h2 id="core-principle">Core principle</h2>
+<p>The radio does not need a perfect enclosure or a perfect mast.
+It needs power, a reasonable antenna, and some protection from the worst weather.</p>
+<h2 id="simple-physical-integration-ideas">Simple physical integration ideas</h2>
 <ul>
-<li><a href="faq/">Frequently Asked Questions</a></li>
-<li><a href="cli_commands/">CLI Commands</a></li>
-<li><a href="companion_protocol/">Companion Protocol</a></li>
-<li><a href="packet_format/">Packet Format</a></li>
-<li><a href="qr_codes/">QR Codes</a></li>
+<li>Place the node on or beside a simple passive structure (chicken-wire frame, scrap wood, small roof, or an OpenRoot-style Node-001 unit).</li>
+<li>Use any scrap material for a basic weather shield (plastic bottle, small plastic box, bent metal, or wood).</li>
+<li>Raise the antenna even 1–2 meters if possible. Height helps more than perfection.</li>
+<li>Keep the antenna as clear of dense metal and thick trees as the site allows.</li>
 </ul>
-<p>If you find a mistake in any of our documentation, or find something is missing, please feel free to open a pull request for us to review.</p>
+<h2 id="why-co-locate-with-a-passive-unit">Why co-locate with a passive unit</h2>
+<p>A MeshCore node gives lightweight multi-hop offline communication.
+A simple passive thermal / radiative structure gives free temperature differential and sky awareness.
+When they sit together, the same physical location serves both information and energy/thermal needs for the lowest node.</p>
+<h2 id="materials-that-cost-almost-nothing">Materials that cost almost nothing</h2>
 <ul>
-<li><a href="https://github.com/meshcore-dev/MeshCore/tree/main/docs">Documentation Source</a></li>
+<li>Scrap wood, bamboo, or PVC</li>
+<li>Chicken wire or any open mesh</li>
+<li>Plastic containers or bottles for weather protection</li>
+<li>Zip ties, wire, or tape</li>
+<li>Existing USB battery banks or small solar cells if available</li>
 </ul>
+<h2 id="definition-of-success">Definition of success</h2>
+<p>If the node can send and receive packets with other nearby nodes, you have already succeeded at the lowest-node level.</p>
+<p>You do not need a perfect station on day one.
+You need a station that exists and can talk.</p>
 
 
 
@@ -711,10 +883,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.action.edit", "content.code.copy", "search.highlight", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.action.edit", "content.code.copy", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
